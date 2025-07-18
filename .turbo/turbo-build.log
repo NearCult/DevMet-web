@@ -1,0 +1,23 @@
+
+> web@0.1.0 build C:\Users\praveen\Desktop\DevMet\devmet\apps\web
+> next build
+
+   ▲ Next.js 15.4.1
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 7.0s
+   Linting and checking validity of types ...
+Failed to compile.
+
+./src/app/page.tsx:15:9
+Type error: Property 'de' does not exist on type 'JSX.IntrinsicElements'.
+
+[0m [90m 13 |[39m           priority
+ [90m 14 |[39m         [33m/[39m[33m>[39m
+[31m[1m>[22m[39m[90m 15 |[39m         [33m<[39m[33mde[39m[33m>[39m[33m<[39m[33m/[39m[33mde[39m[33m>[39m
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m 16 |[39m         [33m<[39m[33mol[39m className[33m=[39m[32m"font-mono list-inside list-decimal text-sm/6 text-center sm:text-left"[39m[33m>[39m
+ [90m 17 |[39m           [33m<[39m[33mli[39m className[33m=[39m[32m"mb-2 tracking-[-.01em]"[39m[33m>[39m
+ [90m 18 |[39m             [33mGet[39m started by editing{[32m" "[39m}[0m
+Next.js build worker exited with code: 1 and signal: null
+ ELIFECYCLE  Command failed with exit code 1.
